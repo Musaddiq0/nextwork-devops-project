@@ -18,12 +18,17 @@ This project is used for an introduction to creating and deploying a Java-based 
 
 The deployment pipeline I'm building around the Java web app in this repository is invisible to the end-user, but makes a big impact by automating the software release processes.
 
+I am doing this project to learn more about CI/CD and get hands on expierence in automatiing the flow from development to deploy web app
+
+This fits into my career goals as this helps me in building skills for a devopc engineer this year. 
+
 <br>
 
 ## Technologies
 Here’s what I’m using for this project:
 
 - **Amazon EC2**: I'm developing my web app on Amazon EC2 virtual servers, so that software development and deployment happens entirely on the cloud.
+- key pairs , ssh connection, Git, Maven, Java
 - **VS Code**: For my IDE, I chose Visual Studio Code. It connects directly to my development EC2 instance, making it easy to edit code and manage files in the cloud.
 - **GitHub**: All my web app code is stored and versioned in this GitHub repository.
 - **[COMING SOON] AWS CodeArtifact**: Once it's rolled out, CodeArtifact will store my artifacts and dependencies, which is great for high availability and speeding up my project's build process.
